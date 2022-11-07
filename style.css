@@ -48,10 +48,35 @@ body    {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container  {
+    padding-inline: 4rem;
+}
+
+article {
+    flex: 1;
+}
+
+.hero-section   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.even-columns   {
+
 }
 
 .text-light {
     color: var(--clr-white);
+}
+
+.text-alt {
+    color: var(--clr-gray);
 }
 
 .text-dark  {
@@ -68,4 +93,61 @@ body    {
 
 .bg-gray    {
     background-color: var(--clr-gray);
+}
+
+.bg-primary {
+    background-color: var(--clr-primary);
+}
+
+.fs-400 {
+    font-size: var(--fs-400);
+}
+.fs-500 {
+    font-size: var(--fs-500);
+}
+.fs-600 {
+    font-size: var(--fs-600);
+}
+.fs-700 {
+    font-size: var(--fs-700);
+}
+
+.fw-italic  {
+    font-style: italic;
+    font-weight: 300;
+}
+.fw-regular  {
+    font-weight: var(--fw-regular);
+}
+.fw-bold  {
+    font-weight: var(--fw-bold);
+}
+
+.spacing   {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.button-primary {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--clr-primary);
+    border-color: var(--clr-primary);
+    color: var(--clr-white);
+    padding: .25rem 1.25rem;
+    border-radius: .5rem;
+}
+.button-alt {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-primary);
+    background-color: var(--clr-white);
+    border-color: var(--clr-primary);
+    padding: .25rem 1.25rem;
+    border-radius: .5rem;
+}
+
+.cta-card   {
+    margin: 2rem;
+    padding: 2rem;
 }
