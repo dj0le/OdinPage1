@@ -28,13 +28,15 @@
     font: inherit;
 } 
 
-ul[role='list'],
-ol[role='list']  {
+ul  {
     list-style: none;
+    display: flex;
+    gap: 1rem;
 }
 
 a{
     text-decoration: none;
+    color: var(--clr-white);
 }
 
 html    {
@@ -65,6 +67,7 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .even-columns   {
@@ -123,9 +126,29 @@ article {
     font-weight: var(--fw-bold);
 }
 
-.spacing   {
+.line-small {
+    line-height: 1.1;
+}
+
+.spacing-big   {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.spacing-small   {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.primary-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
 }
 
 .button-primary {
@@ -150,4 +173,8 @@ article {
 .cta-card   {
     margin: 2rem;
     padding: 2rem;
+}
+
+.center {
+    text-align: center;
 }
