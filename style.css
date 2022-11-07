@@ -70,8 +70,28 @@ article {
     gap: 2rem;
 }
 
-.even-columns   {
+.primary-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.hero-image {
+    width: 500px;
+    height: auto;
+}
+
+.info-pic   {
+    border: 3px solid var(--clr-primary);
+    border-radius: .5rem;
+    width: 150px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.information    {
+    display: flex;
+    justify-content: center;
 }
 
 .text-light {
@@ -130,6 +150,10 @@ article {
     line-height: 1.1;
 }
 
+.max-ch45 {
+    max-width: 45ch;
+}
+
 .spacing-big   {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -138,17 +162,6 @@ article {
 .spacing-small   {
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-.primary-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-image {
-    width: 500px;
-    height: auto;
 }
 
 .button-primary {
@@ -170,9 +183,19 @@ article {
     border-radius: .5rem;
 }
 
+.testimonial-section    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .cta-card   {
     margin: 2rem;
     padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .center {
